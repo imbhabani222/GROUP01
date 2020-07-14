@@ -1,0 +1,44 @@
+@mixin side {
+    background-image: url(/double.jpg);
+    background-repeat:no-repeat;
+    background-size: 60px 60px;
+    background-origin: padding-box;
+    background-color:$myColor;
+    width:350px;
+    padding:40px;
+} 
+@mixin item {
+    background-color: $color-primary;
+}
+@mixin mid {
+    font-size:$font20;
+    color:$color-text-dark;
+    margin-left:50px;
+    background-color:$myColor; 
+    width:800px;
+}
+@mixin nam1 {
+    position: absolute;
+    font-size: 13px;
+    top:65% ;
+    right:255px;
+    text-align:$textalign;
+}
+@mixin date1{
+    position: absolute;
+    right: 230px;
+    top: 73%; 
+    text-align: $textalign;
+    font-size: 13px;
+    color:$color-gray; 
+}
+@mixin paint1{
+    position: absolute;
+    right: 50px;
+    top: 60%;
+    text-align: $textalign;
+    color:$color-primary;
+    font-size:30px;
+}
+
+
